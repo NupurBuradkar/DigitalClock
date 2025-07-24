@@ -1,0 +1,2 @@
+1.Purpose of the Project
+To develop a digital clock application that provides accurate time display with optional features like alarms, timers, and customization, tailored to the client’s platform and user needs.
