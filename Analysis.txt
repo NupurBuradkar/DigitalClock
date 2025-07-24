@@ -19,4 +19,10 @@ Option for user customization (e.g., colors, fonts, layout).
 Should the clock work offline?
 
 Sync time with internet time servers for accuracy?
+7. User Interaction & Accessibility
+Will users need to log in or save preferences?
+
+Any accessibility features needed (e.g., voice output, high contrast)?
+
+Support for multiple languages?
 
