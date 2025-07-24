@@ -4,3 +4,7 @@ To develop a digital clock application that provides accurate time display with 
 2.Time Format & Display
 Should support 12-hour, 24-hour, or both formats.
 
+3.Platform & Device
+Target platform: Web, Mobile (iOS/Android), Desktop, or Embedded device.
+
+
