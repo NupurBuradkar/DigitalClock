@@ -25,4 +25,7 @@ Will users need to log in or save preferences?
 Any accessibility features needed (e.g., voice output, high contrast)?
 
 Support for multiple languages?
+8.Timeline & Budget
+Target launch date or development timeline.
 
+Estimated budget range or financial constraints.
