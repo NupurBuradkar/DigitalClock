@@ -10,3 +10,9 @@ Target platform: Web, Mobile (iOS/Android), Desktop, or Embedded device.
 4.Additional Features
 Include optional tools:
 
+5.Design Preferences
+Preferred style: Digital, Analog, or Custom themes.
+
+Option for user customization (e.g., colors, fonts, layout).
+
+
