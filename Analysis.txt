@@ -7,4 +7,6 @@ Should support 12-hour, 24-hour, or both formats.
 3.Platform & Device
 Target platform: Web, Mobile (iOS/Android), Desktop, or Embedded device.
 
+4.Additional Features
+Include optional tools:
 
