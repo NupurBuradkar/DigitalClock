@@ -15,4 +15,8 @@ Preferred style: Digital, Analog, or Custom themes.
 
 Option for user customization (e.g., colors, fonts, layout).
 
+6.Connectivity & Sync
+Should the clock work offline?
+
+Sync time with internet time servers for accuracy?
 
