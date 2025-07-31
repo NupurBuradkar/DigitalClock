@@ -1,9 +1,107 @@
-<div id="clock">
-<h2>The time is now</h2>
-<div id="time">
-<div><span id="hour">00</span> <span>Hours</span></div>
-<div><span id="minutes">00</span> <span>Minutes</span></div>
-<div><span id="seconds">00</span> <span>Seconds</span></div>
-<div><span id="ampm"></span></div>
-</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #060a1f;
+        }
+
+        #clock {
+            text-align: center;
+            color: #fff;
+        }
+
+        #clock h2 {
+            margin: 10px 0;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4em;
+            font-size: 0.8em;
+        }
+
+        #time {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        #time div {
+            margin: 0 5px;
+            position: relative;
+        }
+
+        #time div span {
+            display: block;
+            width: 100px;
+            height: 80px;
+            background: #219613;
+            color: #fff;
+            font-weight: 300;
+            font-size: 3em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+        }
+
+        #time div span:nth-child(2) {
+            height: 30px;
+            font-size: 0.7em;
+            letter-spacing: 0.2em;
+            font-weight: 500;
+            background: #127fd6;
+            text-transform: uppercase;
+        }
+
+        #time div:nth-last-child(2) span {
+            background: #ff006a;
+        }
+
+        #time div:nth-last-child(2) span:nth-child(2) {
+            background: #ec0062;
+        }
+
+        #time div:nth-last-child(1) span {
+            position: absolute;
+            bottom: 0;
+            width: 60px;
+            height: 40px;
+            font-size: 1.5em;
+            background: #fff;
+            color: #000;
+        }
+
+        #time div:nth-last-child(1) span {
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+        }
+    </style>
+</head>
+<body>
+    <div id="clock">
+        <h2>The time is now</h2>
+        <div id="time">
+            <div><span id="hour">00</span><span>Hours</span></div>
+            <div><span id="minutes">00</span><span>Minutes</span></div>
+            <div><span id="seconds">00</span><span>Seconds</span></div>
+            <div><span id="ampm"></span></div>
+        </div>
+    </div>
+
+</body>
+</html>
+
